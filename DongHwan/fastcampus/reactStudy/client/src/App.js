@@ -13,13 +13,15 @@ import './App.css';
 //import ArrowFunc from './R013_ArrowFunction'
 //import ForEach from './R014_ForEach'
 import Map from './R015_Map'
+import Jquery from './R016_Jquery'
+
 
 function App() {
     return (
         <div>
             <h1>Start React 200!</h1>
             <p>CSS 적용하기</p>
-            <Map/>
+            <Jquery/>
         </div>
     );
 }
