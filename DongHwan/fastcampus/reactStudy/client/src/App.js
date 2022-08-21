@@ -17,14 +17,15 @@ import './App.css';
 //import Props from './R017_Props'
 //import PropsDatatype from './R018_PropsDatatype'
 //import PropsBoolean from './R019_PropsBoolean'
-import PropsObjVal from './R020_PropsObjVal'
+//import PropsObjVal from './R020_PropsObjVal'
+import PropsRequired from './R021_PropsRequired'
 
 function App() {
     return (
         <div>
             <h1>Start React 200!</h1>
             <p>CSS 적용하기</p>
-            <PropsObjVal ObjectJson={{react:"리액트", twohundred:"200"}}/>
+            <PropsRequired ReactNumber={200}/>
         </div>
     );
 }
