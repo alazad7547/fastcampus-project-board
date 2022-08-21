@@ -12,16 +12,16 @@ import './App.css';
 //import ClassProtoType from './R012_Class&Prototype'
 //import ArrowFunc from './R013_ArrowFunction'
 //import ForEach from './R014_ForEach'
-import Map from './R015_Map'
-import Jquery from './R016_Jquery'
-
+//import Map from './R015_Map'
+//import Jquery from './R016_Jquery'
+import Props from './R017_Props'
 
 function App() {
     return (
         <div>
             <h1>Start React 200!</h1>
             <p>CSS 적용하기</p>
-            <Jquery/>
+            <Props props_val = "THIS IS PROPS"/>
         </div>
     );
 }
